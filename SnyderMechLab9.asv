@@ -1,0 +1,25 @@
+%%Lab 9
+%Garret Snyder
+%oncearamalwaysaram
+clear
+clc
+
+%%Problem 1
+money=5500;
+age=0;
+while money<1000000;
+    money=(money+5500)*1.06;
+    age=age+1;
+end;
+RetirementAge6=age
+money2=5500;
+age2=0;
+while money2<1000000;
+    money2=(money2+5500)*1.01;
+    age2=age2+1;
+end;
+RetirementAge1=age2
+
+%%Problem 2
+B=[1,2,3]
+    

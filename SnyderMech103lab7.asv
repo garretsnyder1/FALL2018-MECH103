@@ -1,0 +1,26 @@
+%Lab 7
+%Garret Snyder
+%Due 10/22/18
+%Dr. Bechara
+%MECH 103
+
+clear
+clc
+
+%Problem 1
+%a)
+oneA=4*(pi()^2)
+%b)
+a=[1,2,3];
+b=[4,5,6];
+c=[7,8,9];
+oneB=sum(a)*sum(b)*sum(c)
+%c)
+a=2.1*[5;17;18];
+b=[exp(1);5^(1/2);1.27^2.2];
+c=[a;b];
+oneC=mean(c)
+%d)
+a=[1010;0010;1101;0100];
+oneDA1=nnz(a)
+b=[aaaaaa]
